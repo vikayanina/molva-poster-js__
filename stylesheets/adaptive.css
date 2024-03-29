@@ -1,19 +1,32 @@
 @media screen and (max-device-width: 768px) {
-    .firstscreen {
+    .first-floor {
        
        grid-template-columns:  1fr;
     }
-    .secondscreen {
+    .second-floor {
         grid-template-columns: 1fr;
      }
-     .thirdscreen {
+     .fourth-floor {
         grid-template-columns: 1fr;
      }
-     .hand__text {
+     .header__title {
         font-size: 100px;
      }
-     .header__img {
-        width: 40%;
+     
+ } 
+ @media screen and (max-device-width: 1024px) {
+    .first-floor {
+       
+       grid-template-columns:  1fr 1fr;
+    }
+    .second-floor {
+        grid-template-columns: 1fr 1fr;
+     }
+     .fourth-floor {
+        grid-template-columns: 1fr 1fr;
+     }
+     .header__title {
+        font-size: 100px;
      }
      
  } 
