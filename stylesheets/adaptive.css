@@ -14,19 +14,3 @@
      }
      
  } 
- @media screen and (max-device-width: 1024px) {
-    .first-floor {
-       
-       grid-template-columns:  1fr 1fr;
-    }
-    .second-floor {
-        grid-template-columns: 1fr 1fr;
-     }
-     .fourth-floor {
-        grid-template-columns: 1fr 1fr;
-     }
-     .header__title {
-        font-size: 100px;
-     }
-     
- } 
