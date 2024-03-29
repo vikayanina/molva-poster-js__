@@ -1,0 +1,19 @@
+@media screen and (max-device-width: 768px) {
+    .firstscreen {
+       
+       grid-template-columns:  1fr;
+    }
+    .secondscreen {
+        grid-template-columns: 1fr;
+     }
+     .thirdscreen {
+        grid-template-columns: 1fr;
+     }
+     .hand__text {
+        font-size: 100px;
+     }
+     .header__img {
+        width: 40%;
+     }
+     
+ } 
